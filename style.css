@@ -26,6 +26,19 @@
     border-radius: 20px;
     box-shadow:  -8px -8px 15px rgba(0, 204, 255, 0.219),5px 5px 15px rgba(0, 0, 0, 0.2);
     font-size: 20px;
+    color:#c2bdbd ;
+    cursor: pointer;
+    background: transparent;
+    margin: 10px;
+}
+.calculater form input:hover{
+    border: 1px solid bisque;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 20px;
+    box-shadow:  -8px -8px 15px rgba(0, 0, 0, 0.219),5px 5px 15px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
     color:#ffffff ;
     cursor: pointer;
     background: transparent;
@@ -34,6 +47,9 @@
 form .display{
     display: flex;
     justify-content: flex-end;
+    border: 1px solid bisque;
+    border-radius: 25px;
+    background: #80999c;
 
 }
 form .display input{
@@ -44,4 +60,20 @@ form .display input{
 }
 form input.eq{
     width: 145px;
+}
+form input.eq:hover{
+    width: 145px;
+}
+form input.oprater{
+    color: rgb(106, 212, 177);
+    
+
+}
+button:hover{
+    border: 2px solid black;
+}
+form input.oprater:hover{
+    color: rgb(0, 255, 170);
+    border: 2px solid rgb(209, 202, 202);
+
 }
